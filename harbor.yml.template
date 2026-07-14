@@ -1,0 +1,45 @@
+# Configuration file of Harbor
+
+# The IP address or hostname to access admin UI and registry service.
+# DO NOT use localhost or 127.0.0.1, because Harbor needs to be accessed by external clients.
+hostname: harbor.example.com
+
+# If you use Cloudflare Tunnel (or any reverse proxy) that handles HTTPS,
+# you MUST define external_url so Harbor knows its public address.
+external_url: https://harbor.example.com
+
+# http related config
+http:
+  # port for http, default is 80. If https enabled, this port will redirect to https port
+  port: 80
+
+# (Optional) Https related config. Remove or comment out if you are handling HTTPS at Cloudflare/proxy layer.
+# https:
+#  port: 443
+#  certificate: /your/certificate/path
+#  private_key: /your/private/key/path
+
+# The default data volume
+data_volume: /data
+
+# Harbor DB configuration
+database:
+  password: StrongDatabasePassword123
+  max_idle_conns: 50
+  max_open_conns: 1000
+
+# The default password of system admin (admin)
+harbor_admin_password: StrongAdminPassword123
+
+# Jobservice config
+jobservice:
+  max_job_workers: 10
+
+# Notification config
+notification:
+  webhook_job_max_retry: 10
+
+# Redis config
+redis:
+  # URL for redis, e.g. redis://[redis_user]:[redis_pwd]@redis_host:redis_port/redis_db
+  url: redis://redis:6379/0
