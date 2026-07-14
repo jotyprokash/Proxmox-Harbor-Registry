@@ -1,5 +1,14 @@
 # Proxmox Harbor Registry
 
+<p>
+  <img alt="Proxmox" src="https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white" />
+  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img alt="Harbor" src="https://img.shields.io/badge/Harbor-60B932?style=flat&logo=harbor&logoColor=white" />
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
+</p>
+
 Zero-touch bash automation for deploying a highly-optimized, low-resource Harbor Container Registry on Proxmox, secured via Cloudflare Zero Trust Tunnels.
 
 ## Architecture
