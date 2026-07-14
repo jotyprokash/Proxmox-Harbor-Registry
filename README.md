@@ -5,7 +5,9 @@
   <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
   <img alt="Harbor" src="https://img.shields.io/badge/Harbor-60B932?style=flat&logo=harbor&logoColor=white" />
+  <img alt="Trivy" src="https://img.shields.io/badge/Trivy-1E90FF?style=flat&logo=aquasecurity&logoColor=white" />
   <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
+  <img alt="Tailscale" src="https://img.shields.io/badge/Tailscale-FFFFFF?style=flat&logo=tailscale&logoColor=black" />
   <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
 </p>
 
