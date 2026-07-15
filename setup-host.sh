@@ -34,4 +34,8 @@ echo \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-echo "=> Host setup complete! You can now run install-harbor.sh"
+echo "=> Adding current user to docker group..."
+sudo usermod -aG docker $USER
+
+echo "=> Host setup complete! Reboot or re-login for docker group to take effect."
+echo "=> You can now run install-harbor.sh"
