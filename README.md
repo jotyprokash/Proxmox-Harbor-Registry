@@ -52,3 +52,7 @@ To expose Harbor securely, SSH into your **internal-ingress** container and run:
 wget -qO configure-cloudflare.sh https://raw.githubusercontent.com/jotyprokash/Proxmox-Harbor-Registry/main/configure-cloudflare.sh && chmod +x configure-cloudflare.sh && ./configure-cloudflare.sh
 ```
 **Done!** Your Harbor registry is now fully secured, routed, and live.
+
+---
+
+[View Implementation Walkthrough](IMPLEMENTATION.md)
