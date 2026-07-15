@@ -18,7 +18,7 @@ Zero-touch bash automation for deploying a highly-optimized, low-resource Harbor
 - **Resources:** 2 vCPUs, 2GB RAM, 20GB Disk, 6GB Swap
 - **Network:** Cloudflare Tunnel (SSL Termination) + Static IP
 
----
+
 
 ## Phase 1: Proxmox Provisioning
 Run this command on your **Proxmox Host** to interactively build and configure the VM:
@@ -26,7 +26,7 @@ Run this command on your **Proxmox Host** to interactively build and configure t
 wget -qO create-proxmox-vm.sh https://raw.githubusercontent.com/jotyprokash/Proxmox-Harbor-Registry/main/create-proxmox-vm.sh && chmod +x create-proxmox-vm.sh && ./create-proxmox-vm.sh
 ```
 
----
+
 
 ## Phase 2: Harbor Deployment
 SSH into the newly created VM (`ssh username@<Static-IP>`) and execute:
@@ -44,7 +44,7 @@ nano harbor.yml.template
 sudo ./install-harbor.sh
 ```
 
----
+
 
 ## Phase 3: Cloudflare Routing
 To expose Harbor securely, SSH into your **internal-ingress** container and run:
@@ -53,6 +53,6 @@ wget -qO configure-cloudflare.sh https://raw.githubusercontent.com/jotyprokash/P
 ```
 **Done!** Your Harbor registry is now fully secured, routed, and live.
 
----
 
-[View Implementation Walkthrough](IMPLEMENTATION.md)
+
+[View Implementation Steps](IMPLEMENTATION.md)
